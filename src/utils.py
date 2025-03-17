@@ -9,7 +9,7 @@ def setup(t=n):
     global n
     n = t
     print(f"> n configurado en {n}")
-    sys.setrecursionlimit(t + 10)
+    sys.setrecursionlimit(t * 10)
 
 
 def Line(): print("================================")
