@@ -12,7 +12,7 @@ def setup(t=n):
     sys.setrecursionlimit(t * 10)
 
 
-def Line(): print("================================")
+def Line(): print("===========================================")
 
 
 def Timer(ex: str, f, recursive: bool, param=False):
